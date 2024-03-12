@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ping-servers:
+    build: .
+    volumes:
+      - .env:/app/.env
+    ports:
+      - "3000:3000"

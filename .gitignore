@@ -1,0 +1,5 @@
+.env
+.package-lock.json
+ping_logs.txt
+build
+node_modules
